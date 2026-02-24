@@ -17,6 +17,5 @@ export class HomeComponent {
     const diffX: number = pe.clientX - centerX;
     const diffY: number = pe.clientY - centerY;
     this.rotation = Math.atan2(diffY, diffX);
-    console.log(`Mouse moved to ${pe.clientX}, ${pe.clientY}`);
   }
 }

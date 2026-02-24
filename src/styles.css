@@ -11,34 +11,22 @@ h2, h3 {
 }
 body {
   background-color: #000;
+  color: #dddddd;
   margin: 1em;
   width: 100vw;
   height: 100vh;
 }
-body, input[type="text"], button {
-  color: #ddd;
-  font-family: Georgia, Georgia, serif;
-}
 button {
-  background-color: #eee;
+  background-color: #444444;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  color: black;
-  font-size: 1.2rem;
-  padding: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  color: white;
 }
 button:hover {
   background-color: black;
   color: white;
-}
-button:disabled {
-  background-color: #eee;
-  color: #aaa;
-  cursor: auto;
+  border: 1px solid white;
 }
 a {
   text-decoration: underline;
