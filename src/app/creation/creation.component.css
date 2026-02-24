@@ -1,13 +1,7 @@
-.centered {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
 .container {
-  padding-top: 3em;
+  padding-top: 1em;
   display: grid;
+  height: 500px;
   grid-template-columns: 500px 500px;
   column-gap: 50px;
   place-content: center;
@@ -21,17 +15,28 @@ h1 {
   text-align: center;
 }
 
-.icon {
-  animation: fadeInDelay 2s ease-out, spin 5s linear infinite;
-  height: 500px;
+.image {
+  animation: fadeInDelayLeft 1.5s ease-out;
+  max-height: 500px;
+  max-width: 500px;
+  height: auto;
+  width: auto;
   grid-column: 2;
   place-self: center;
 }
 
 p {
-  animation: fadeInDelay 3s ease-out;
+  animation: fadeInDelayUp 2s ease-out;
   grid-column: 1;
   text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  color: #ffffff;
+  grid-column: 1;
+  text-align: center;
+  width: 500px;
 }
 
 @keyframes fadeInDown {
@@ -45,14 +50,29 @@ p {
   }
 }
 
-@keyframes fadeInDelay {
+@keyframes fadeInDelayLeft {
   0% {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateX(30px);
   }
   50% {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInDelayUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(30px);
   }
   100% {
     opacity: 1;

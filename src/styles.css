@@ -40,6 +40,10 @@ button:disabled {
   color: #aaa;
   cursor: auto;
 }
+a {
+  text-decoration: underline;
+  color: lightblue;
+}
 
 /* everywhere else */
 * {

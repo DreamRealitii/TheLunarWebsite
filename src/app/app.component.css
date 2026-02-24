@@ -25,9 +25,6 @@ nav a:hover {
   animation: colorFade 0.25s ease-in-out;
   animation-fill-mode: forwards;
 }
-nav a:active {
-  background-color: black;
-}
 
 @keyframes colorFade {
   from {

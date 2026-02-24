@@ -1,9 +1,10 @@
 <div class="centered">
-  <div class="container">
+  <div class="container" (pointermove)="onMouseMove($event)">
     <div class="text">
       <h1>The Lunar Carver</h1>
       <p>A problem solver and creator who wants to make the world better despite everything.</p>
     </div>
-    <img class="icon" src="/assets/Eyecon_transparent.png" alt="Spinning icon"/>
+    <img class="icon" #image
+      src="/assets/Eyecon_transparent.png" alt="Spinning icon"/>
   </div>
 </div>

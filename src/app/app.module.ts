@@ -5,20 +5,16 @@ import { HttpClientModule } from '@Angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { MessagesComponent } from './messages/messages.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
+import { CreationsComponent } from './creations/creations.component';
+import { CreationComponent } from './creation/creation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent,
-    HeroDetailComponent,
-    MessagesComponent,
-    DashboardComponent,
-    HomeComponent
+    HomeComponent,
+    CreationsComponent,
+    CreationComponent
   ],
   imports: [
     BrowserModule,
