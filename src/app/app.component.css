@@ -4,7 +4,7 @@ h1 {
 }
 nav {
   display: grid;
-  grid: 50px / 50px auto auto auto auto;
+  grid: 50px / 50px auto auto auto auto auto;
   justify-content: space-between;
 }
 nav img {
@@ -21,7 +21,6 @@ nav a {
   text-align: center;
   vertical-align: middle;
 }
-
 nav a:hover {
   animation: colorFade 0.25s ease-in-out;
   animation-fill-mode: forwards;

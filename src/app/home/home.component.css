@@ -1,11 +1,17 @@
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
 .container {
   padding-top: 3em;
   display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.text {
-  place-self: center;
+  grid-template-columns: 500px 500px;
+  column-gap: 50px;
+  place-content: center;
+  place-items: center;
 }
 
 h1 {
@@ -25,6 +31,7 @@ h1 {
 p {
   animation: fadeInDelay 4s ease-out;
   grid-column: 1;
+  text-align: center;
 }
 
 @keyframes fadeInDown {

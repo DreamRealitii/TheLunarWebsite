@@ -12,6 +12,8 @@ h2, h3 {
 body {
   background-color: #000;
   margin: 1em;
+  width: 100vw;
+  height: 100vh;
 }
 body, input[type="text"], button {
   color: #ddd;
