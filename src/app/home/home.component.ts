@@ -10,7 +10,13 @@ export class HomeComponent {
   rotation: number = 0;
 
   onMouseMove(pe: PointerEvent): void {
-    this.rotation = pe.offsetX;
-    console.log(`Mouse moved to ${pe.offsetX}, ${pe.offsetY}`);
+    const element: HTMLElement = this.image?.nativeElement;
+    const rect: DOMRect = element.getBoundingClientRect();
+    const centerX: number = rect.left + (rect.width / 2);
+    const centerY: number = rect.top + (rect.height / 2);
+    const diffX: number = pe.clientX - centerX;
+    const diffY: number = pe.clientY - centerY;
+    this.rotation = Math.atan2(diffY, diffX);
+    console.log(`Mouse moved to ${pe.clientX}, ${pe.clientY}`);
   }
 }

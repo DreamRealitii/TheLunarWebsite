@@ -22,7 +22,7 @@ h1 {
 }
 
 .icon {
-  animation: fadeInDelay 2s ease-out, spin 5s linear infinite;
+  animation: fadeInDelay 2s ease-out;
   height: 500px;
   grid-column: 2;
   place-self: center;
