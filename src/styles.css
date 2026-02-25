@@ -1,12 +1,11 @@
 /* Application-wide Styles */
 h1 {
   color: #fff;
-  font-family: Georgia, Helvetica, sans-serif;
+  text-shadow: 2px 2px 5px #6600ff;
   font-size: 250%;
 }
 h2, h3 {
   color: #ddd;
-  font-family: Georgia, Helvetica, sans-serif;
   font-weight: lighter;
 }
 body {
