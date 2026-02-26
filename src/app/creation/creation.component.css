@@ -1,8 +1,8 @@
 .container {
   padding-top: 1em;
   display: grid;
-  height: 500px;
-  grid-template-columns: 500px 500px;
+  height: 400px;
+  grid-template-columns: 400px 400px;
   column-gap: 50px;
   place-content: center;
   place-items: center;
@@ -16,8 +16,8 @@ h1 {
 
 .image {
   animation: fadeInDelayLeft 1.5s ease-out;
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 400px;
+  max-width: 400px;
   height: auto;
   width: auto;
   grid-column: 2;

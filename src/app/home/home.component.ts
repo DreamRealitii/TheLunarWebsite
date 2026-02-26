@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
       if (this.currentRotation - moveTowards >= Math.PI)
         moveTowards += Math.PI * 2;
       this.currentRotation = ((this.currentRotation * 0.95) + (moveTowards * 0.05)) % (Math.PI * 2)
-    }, 10)
+    }, 10);
   }
 
   onMouseMove(pe: PointerEvent): void {

@@ -11,7 +11,7 @@ export class PlaygroundService {
     this.http.get<any>(`https://pokeapi.co/api/v2/pokemon/${name}`).subscribe(
       {
         next: (response) => callback(response.moves.length),
-        error: () => callback(-1)
+        error: (err) => callback(-1)
       }
     );
   }

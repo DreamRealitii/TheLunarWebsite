@@ -1,0 +1,9 @@
+.image {
+  animation: fadeInDelayLeft 1.5s ease-out;
+  max-height: 400px;
+  max-width: 400px;
+  height: auto;
+  width: auto;
+  grid-column: 2;
+  place-self: center;
+}

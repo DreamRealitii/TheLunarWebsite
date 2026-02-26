@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { CreationsComponent } from './creations/creations.component';
 import { CreationComponent } from './creation/creation.component';
 import { PlaygroundComponent } from './playground/playground.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
+import { HobbyComponent } from './hobby/hobby.component';
+import { DisplayComponent } from './display/display.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { PlaygroundComponent } from './playground/playground.component';
     HomeComponent,
     CreationsComponent,
     CreationComponent,
-    PlaygroundComponent
+    PlaygroundComponent,
+    HobbiesComponent,
+    HobbyComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule,
