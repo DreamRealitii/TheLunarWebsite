@@ -12,6 +12,7 @@ import { PlaygroundComponent } from './playground/playground.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { HobbyComponent } from './hobby/hobby.component';
 import { DisplayComponent } from './display/display.component';
+import { MyselfComponent } from './myself/myself.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DisplayComponent } from './display/display.component';
     PlaygroundComponent,
     HobbiesComponent,
     HobbyComponent,
-    DisplayComponent
+    DisplayComponent,
+    MyselfComponent
   ],
   imports: [
     BrowserModule,

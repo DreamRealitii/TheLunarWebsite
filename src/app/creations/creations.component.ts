@@ -21,7 +21,7 @@ export class CreationsComponent {
       imageSrc: '/assets/CV.png'
     },
     {
-      title: 'This',
+      title: 'This Website',
       description: 'A simple website I made in Angular to share myself and prove I can also do front-end development.',
       link: '/',
       imageSrc: '/assets/Website.png'
@@ -33,8 +33,14 @@ export class CreationsComponent {
       imageSrc: '/assets/BS_Levels.png'
     },
     {
+      title: 'Beat Saber Mods',
+      description: 'I made a couple mods in C# for Beat Saber: One called Bad Cut Type for the game itself, and more recently one called BPM Helper for a level editor.',
+      link: 'https://github.com/DreamRealitii/ChroMapper-BPMHelper',
+      imageSrc: '/assets/BPM.png'
+    },
+    {
       title: 'YouTube Channel',
-      description: 'As a teenager, I tried going the route of the gaming YouTuber. Although it never turned into a source of money or fame, what I made back then was still decently entertaining and helped me learn to edit.',
+      description: 'As a teenager, I tried going the route of the gaming YouTuber. Although it never turned into a source of money or clout, what I made back then was still decently entertaining and helped me learn to edit.',
       link: 'https://www.youtube.com/@DreamRealitii',
       imageSrc: '/assets/YT.png'
     }

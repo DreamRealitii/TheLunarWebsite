@@ -2,9 +2,10 @@
     <div class="text">
       <h1>{{creation?.title}}</h1>
       <p>{{creation?.description}}</p>
-      <p>Click <a href="{{creation?.link}}" target="_blank" rel="noopener noreferrer">here</a> to see for yourself.</p>
+      <div *ngIf="creation?.link">
+        <p>Click <a href="{{creation?.link}}" target="_blank" rel="noopener noreferrer">here</a> to see for yourself.</p>
+      </div>
     </div>
-    <!--img class="image" src="{{creation?.imageSrc}}" alt="Image of {{creation?.title}}"/-->
     <app-display class="image" imageSrcIn="{{creation?.imageSrc}}"
     imageAltIn="{{creation?.title}}" embedSrcIn="{{creation?.embedSrc}}"></app-display>
 </div>

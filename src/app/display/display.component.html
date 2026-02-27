@@ -1,2 +1,2 @@
-<iframe *ngIf="embedSrc" class="image" width="500" height="282" src="{{embedSrc}}" title="Embed" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<img *ngIf="imageSrc" class="image" src="{{imageSrc}}" alt="{{imageAlt}}"/>
+<iframe *ngIf="embedSrc" class="image" width="400" height="225" [src]="embedSrc" title="Embed" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<img *ngIf="imageSrc" class="image" [src]="imageSrc" [alt]="imageAlt"/>

@@ -4,7 +4,7 @@ h1 {
 }
 nav {
   display: grid;
-  grid: 50px / 50px auto auto auto auto auto;
+  grid: 50px / 50px auto auto auto auto auto auto;
   justify-content: space-between;
 }
 nav img {
