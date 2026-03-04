@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule, provideHttpClient } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,25 +14,18 @@ import { HobbyComponent } from './hobby/hobby.component';
 import { DisplayComponent } from './display/display.component';
 import { MyselfComponent } from './myself/myself.component';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    CreationsComponent,
-    CreationComponent,
-    PlaygroundComponent,
-    HobbiesComponent,
-    HobbyComponent,
-    DisplayComponent,
-    MyselfComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule,
-    HttpClientModule
-  ],
-  providers: [provideHttpClient()],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HomeComponent,
+        CreationsComponent,
+        CreationComponent,
+        PlaygroundComponent,
+        HobbiesComponent,
+        HobbyComponent,
+        DisplayComponent,
+        MyselfComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        FormsModule,
+        AppRoutingModule], providers: [provideHttpClient(), provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
