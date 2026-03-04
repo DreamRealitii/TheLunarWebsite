@@ -32,7 +32,7 @@ export class HobbiesComponent {
     },
     {
       title: 'Music',
-      description: 'About 90% of what I listen to is video game soundtracks. Outside of that, my favorite genre is breakcore. I use the Moondrop Blessing 3 along with an old Schiit stack (yes that is their name). I also EQ and crossfeed my headphones to get the most accurate possible sound.',
+      description: 'About 90% of what I listen to is video game soundtracks. Outside of that, my favorite genre is breakcore. I use the Moondrop Blessing 3 along with an old Schiit stack (yes that is their name). I also EQ and crossfeed my headphones to get the most accurate sound possible.',
       imageSrc: '/assets/Music.png'
     }
   ];

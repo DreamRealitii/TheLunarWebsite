@@ -22,8 +22,8 @@ export class CreationsComponent {
     },
     {
       title: 'This Website',
-      description: 'A simple website I made in Angular to share myself and prove I can also do front-end development.',
-      link: '/',
+      description: 'A simple website I made in Angular to share myself, along with proving I can also do front-end development and CI/CD.',
+      link: 'https://github.com/DreamRealitii/TheLunarCarver-Website',
       imageSrc: '/assets/Website.png'
     },
     {
@@ -34,7 +34,7 @@ export class CreationsComponent {
     },
     {
       title: 'Beat Saber Mods',
-      description: 'I made a couple mods in C# for Beat Saber: One called Bad Cut Type for the game itself, and more recently one called BPM Helper for a level editor.',
+      description: 'I made a couple Unity mods in C# for Beat Saber: One called Bad Cut Type for the game itself, and more recently one called BPM Helper for a level editor.',
       link: 'https://github.com/DreamRealitii/ChroMapper-BPMHelper',
       imageSrc: '/assets/BPM.png'
     },

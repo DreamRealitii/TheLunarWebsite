@@ -1,11 +1,11 @@
 /* Application-wide Styles */
 h1 {
-  color: #fff;
+  color: #ffffff;
   text-shadow: 2px 2px 5px #6600ff;
   font-size: 250%;
 }
 h2, h3 {
-  color: #ddd;
+  color: #eeeeee;
   font-weight: lighter;
 }
 body {
@@ -29,7 +29,7 @@ button:hover {
 }
 a {
   text-decoration: underline;
-  color: lightblue;
+  color: #aa88ff;
 }
 
 /* everywhere else */
