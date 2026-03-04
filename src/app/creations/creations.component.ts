@@ -40,7 +40,7 @@ export class CreationsComponent {
     },
     {
       title: 'YouTube Channel',
-      description: 'As a teenager, I tried going the route of the gaming YouTuber. Although it never turned into a source of money or clout, what I made back then was still decently entertaining and helped me learn to edit.',
+      description: 'As a teenager, I tried going the route of the gaming YouTuber. Although it never turned into a source of money or fame, what I made back then was still decently entertaining and helped me learn to edit.',
       link: 'https://www.youtube.com/@DreamRealitii',
       imageSrc: './assets/YT.png'
     }

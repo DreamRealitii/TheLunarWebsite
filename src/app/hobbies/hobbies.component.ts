@@ -10,7 +10,7 @@ export class HobbiesComponent {
   hobbies: Creation[] = [
     {
       title: 'Play Beat Saber',
-      description: 'This game is why I am not obese. I am somewhere around the top 300 players in the world. Most of my best scores are on slow levels with extreme note angles.',
+      description: 'This game is my main method for staying fit. I am somewhere around the top 300 players in the world. Most of my best scores are on slow levels with extreme note angles.',
       link: 'https://beatleader.com/u/76561198126887823/',
       embedSrc: 'https://www.youtube.com/embed/CdOt-YLdObU?si=uUYQYAESuYh_QDw1'
     },
@@ -21,13 +21,12 @@ export class HobbiesComponent {
     },
     {
       title: 'Watch YouTube',
-      description: 'I am eternally thankful that Markiplier is the creator I grew up on, as opposed to someone like Mr. Beast. Nowadays, I would say my favorite channels are Teo for gaming content, SnapCube for improv comedy, and Something Witty Entertainment for scripted comedy. I also watch a few progressive political pundits, but I won\'t say who.',
+      description: 'I am eternally thankful that Markiplier is the creator I grew up on. Nowadays, I would say my favorite channels are Teo for gaming content, SnapCube for improv comedy, and Something Witty Entertainment for scripted comedy. I also watch a variety of progressive political pundits',
       imageSrc: './assets/YT_Channels.png'
     },
     {
       title: 'Read',
-      description: 'About 90% of what I read are comics in the "yuri" genre. It is such an improvement over the action/fantasy shows I grew up watching. My favorite authors for traditional series are Yuama and Xian Jun, and Morishima Akiko is very underrated. I have a Discord server where I share grades for everything I\'ve read, but it\'s private for now.',
-      link: "https://dynasty-scans.com/lists/454447-yuri-but-it-s-only-peak-sfw?view=tags",
+      description: 'As a kid, I read some of the classic series, like the Chronicles of Narnia, the Time Quintet, and Calvin & Hobbes. Nowadays, I have found comics that I enjoy much more than the action/fantasy stuff I grew up with. My favorite authors for traditional series are Yuama and Xian Jun, and Morishima Akiko is very underrated. I have a Discord server where I share grades for everything I\'ve read, but it\'s private for now.',
       imageSrc: './assets/Reading.png'
     },
     {
