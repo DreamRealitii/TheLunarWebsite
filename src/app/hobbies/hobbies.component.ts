@@ -21,7 +21,7 @@ export class HobbiesComponent {
     },
     {
       title: 'Watch YouTube',
-      description: 'I am eternally thankful that Markiplier is the creator I grew up on. Nowadays, I would say my favorite channels are Teo for gaming content, SnapCube for improv comedy, and Something Witty Entertainment for scripted comedy. I also watch a variety of progressive political pundits',
+      description: 'I am eternally thankful that Markiplier is the creator I grew up on. Nowadays, I would say my favorite channels are Teo for gaming content, SnapCube for improv comedy, and Something Witty Entertainment for scripted comedy. I also watch a variety of progressive political pundits.',
       imageSrc: './assets/YT_Channels.png'
     },
     {
