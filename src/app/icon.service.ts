@@ -7,7 +7,13 @@ export class IconService {
 
   updateIcon(str: string): void {}
 
-  setCallback(callback: (str: string) => void): void {
+  resetIcon(): void {}
+
+  setUpdate(callback: (str: string) => void): void {
     this.updateIcon = callback;
+  }
+
+  setReset(callback: () => void): void {
+    this.resetIcon = callback;
   }
 }

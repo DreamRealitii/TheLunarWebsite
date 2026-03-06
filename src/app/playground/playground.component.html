@@ -1,12 +1,15 @@
 <div class="centered">
   <div>
+    <h1>REST API Test</h1>
     <p>Enter the name of a Pokemon and I'll tell you how many moves it has. If you get -1 after a second, that Pokemon does not exist.</p>
     <input type="text" [(ngModel)]="name"/>
     <button (click)="getMoves()">Submit</button>
     <span> | Number of moves: {{moves}}</span>
   </div>
   <div>
+    <h1>Authentication Test</h1>
     <p>Sign in to your Google account to replace the corner icon with your own: </p>
     <div id="button"></div>
+    <button (click)="handleReset()">Reset Icon</button>
   </div>
 </div>

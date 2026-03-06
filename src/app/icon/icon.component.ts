@@ -9,11 +9,14 @@ import { IconService } from '../icon.service';
   styleUrl: './icon.component.css'
 })
 export class IconComponent implements OnInit {
-  imageSrc: string = "./assets/Eyecon_small.png";
+  readonly defaultSrc: string = "./assets/Eyecon_small.png";
+  imageSrc: string = this.defaultSrc;
 
   constructor(private iconService: IconService) {
     this.setImage = this.setImage.bind(this);
-    iconService.setCallback(this.setImage);
+    this.resetImage = this.resetImage.bind(this);
+    iconService.setUpdate(this.setImage);
+    iconService.setReset(this.resetImage);
   }
 
   ngOnInit(): void {
@@ -24,5 +27,9 @@ export class IconComponent implements OnInit {
 
   setImage(src: string): void {
     this.imageSrc = src;
+  }
+
+  resetImage(): void {
+    this.imageSrc = this.defaultSrc;
   }
 }

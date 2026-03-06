@@ -32,7 +32,7 @@ export class PlaygroundComponent implements AfterViewInit {
     );
   }
 
-  handleGoogleSignIn(response: any) {
+  handleGoogleSignIn(response: any): void {
 
     // This next is for decoding the idToken to an object if you want to see the details.
     let base64Url = response.credential.split('.')[1];
@@ -43,6 +43,11 @@ export class PlaygroundComponent implements AfterViewInit {
     let parsedResponse : any = JSON.parse(jsonPayload);
     this.iconService.updateIcon(parsedResponse.picture);
     localStorage.setItem("icon", parsedResponse.picture);
+  }
+
+  handleReset(): void {
+    this.iconService.resetIcon();
+    localStorage.removeItem("icon");
   }
 
   getMoves(): void {
