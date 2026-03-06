@@ -1,4 +1,12 @@
-<p>Enter the name of a Pokemon and I'll tell you how many moves it has. If you get -1 after a second, that Pokemon does not exist.</p>
-<input type="text" [(ngModel)]="name"/>
-<button (click)="getMoves()">Submit</button>
-<span> | Number of moves: {{moves}}</span>
+<div class="centered">
+  <div>
+    <p>Enter the name of a Pokemon and I'll tell you how many moves it has. If you get -1 after a second, that Pokemon does not exist.</p>
+    <input type="text" [(ngModel)]="name"/>
+    <button (click)="getMoves()">Submit</button>
+    <span> | Number of moves: {{moves}}</span>
+  </div>
+  <div>
+    <p>Sign in to your Google account to replace the corner icon with your own: </p>
+    <div id="button"></div>
+  </div>
+</div>

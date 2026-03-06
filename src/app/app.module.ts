@@ -13,6 +13,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { HobbyComponent } from './hobby/hobby.component';
 import { DisplayComponent } from './display/display.component';
 import { MyselfComponent } from './myself/myself.component';
+import { IconComponent } from "./icon/icon.component";
 
 @NgModule({ declarations: [
         AppComponent,
@@ -26,6 +27,6 @@ import { MyselfComponent } from './myself/myself.component';
         MyselfComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
-        FormsModule,
-        AppRoutingModule], providers: [provideHttpClient(), provideHttpClient(withInterceptorsFromDi())] })
+    FormsModule,
+    AppRoutingModule, IconComponent], providers: [provideHttpClient(), provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
