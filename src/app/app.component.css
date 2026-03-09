@@ -29,6 +29,14 @@ footer {
   font-size: 12px;
 }
 
+@media screen and (max-width: 830px) {
+  nav a {
+    padding-top: 15px;
+    font-size: 15px;
+    width: 80px;
+  }
+}
+
 @keyframes colorFade {
   from {
     color: #bbbbbb;

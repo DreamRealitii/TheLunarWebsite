@@ -1,4 +1,3 @@
-/* Application-wide Styles */
 h1 {
   color: #ffffff;
   text-shadow: 2px 2px 5px #6600ff;
@@ -29,8 +28,69 @@ a {
   text-decoration: underline;
   color: #aa88ff;
 }
-
-/* everywhere else */
 * {
   font-family: Georgia, Helvetica, sans-serif;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 96px);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInDelayUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInDownDelay {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes fadeInDelayLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
