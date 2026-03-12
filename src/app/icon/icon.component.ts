@@ -1,9 +1,8 @@
-import { Component, input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { IconService } from '../icon.service';
 
 @Component({
     selector: 'app-icon',
-    imports: [],
     templateUrl: './icon.component.html',
     styleUrl: './icon.component.css'
 })

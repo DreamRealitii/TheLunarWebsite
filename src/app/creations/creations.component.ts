@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Creation } from '../creation';
+import { CreationComponent } from '../creation/creation.component';
 
 @Component({
     selector: 'app-creations',
     templateUrl: './creations.component.html',
     styleUrls: ['./creations.component.css'],
-    standalone: false
+    imports: [CreationComponent]
 })
 export class CreationsComponent {
   creations: Creation[] = [

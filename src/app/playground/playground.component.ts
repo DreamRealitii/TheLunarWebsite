@@ -1,11 +1,12 @@
 import { AfterViewInit, Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { PlaygroundService } from '../playground.service';
 
 @Component({
     selector: 'app-playground',
     templateUrl: './playground.component.html',
     styleUrls: ['./playground.component.css'],
-    standalone: false
+    imports: [FormsModule]
 })
 export class PlaygroundComponent implements AfterViewInit {
   name: string = "Pikachu";

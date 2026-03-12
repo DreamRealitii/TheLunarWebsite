@@ -16,15 +16,7 @@ import { MyselfComponent } from './myself/myself.component';
 import { IconComponent } from "./icon/icon.component";
 
 @NgModule({ declarations: [
-        AppComponent,
-        HomeComponent,
-        CreationsComponent,
-        CreationComponent,
-        PlaygroundComponent,
-        HobbiesComponent,
-        HobbyComponent,
-        DisplayComponent,
-        MyselfComponent
+        AppComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
     FormsModule,

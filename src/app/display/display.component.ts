@@ -4,8 +4,7 @@ import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browse
 @Component({
     selector: 'app-display',
     templateUrl: './display.component.html',
-    styleUrls: ['./display.component.css'],
-    standalone: false
+    styleUrls: ['./display.component.css']
 })
 // Displays either an image or an embed
 export class DisplayComponent implements OnInit {
