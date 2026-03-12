@@ -1,5 +1,9 @@
 h1 {
   text-align: center;
+  animation: fadeInDown 1s ease-out;
+}
+h3 {
+  animation: fadeInDownDelay 1.5s ease-out;
 }
 .container {
     display: grid;
@@ -20,8 +24,13 @@ h1 {
 span {
   text-align: center;
   max-width: 800px;
+  animation: fadeInDownDelay 2.5s ease-out;
 }
 ul {
   list-style-type: none;
   max-width: 800px;
+  animation: fadeInDownDelay 2.5s ease-out;
+}
+li + li {
+  margin-top: 5px;
 }
