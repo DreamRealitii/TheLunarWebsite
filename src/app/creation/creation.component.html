@@ -1,13 +1,15 @@
 <div class="container">
-    <div class="text">
-      <h1>{{creation?.title}}</h1>
-      <p>{{creation?.description}}</p>
-      <div *ngIf="creation?.link">
+  <div class="text">
+    <h1>{{creation?.title}}</h1>
+    <p>{{creation?.description}}</p>
+    @if (creation?.link) {
+      <div>
         <p>Click <a href="{{creation?.link}}" target="_blank" rel="noopener noreferrer">here</a> to see for yourself.</p>
       </div>
-    </div>
-    <div>
-      <app-display class="image" imageSrcIn="{{creation?.imageSrc}}"
-      imageAltIn="{{creation?.title}}" embedSrcIn="{{creation?.embedSrc}}"></app-display>
-    </div>
+    }
+  </div>
+  <div>
+    <app-display class="image" imageSrcIn="{{creation?.imageSrc}}"
+    imageAltIn="{{creation?.title}}" embedSrcIn="{{creation?.embedSrc}}"></app-display>
+  </div>
 </div>

@@ -1,3 +1,5 @@
 <div class="container">
-    <app-creation *ngFor="let creation of creations" [creation]="creation"></app-creation>
+  @for (creation of creations; track creation) {
+    <app-creation [creation]="creation"></app-creation>
+  }
 </div>
