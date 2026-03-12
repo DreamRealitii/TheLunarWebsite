@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { Creation } from '../creation';
 
 @Component({
-  selector: 'app-creations',
-  templateUrl: './creations.component.html',
-  styleUrls: ['./creations.component.css']
+    selector: 'app-creations',
+    templateUrl: './creations.component.html',
+    styleUrls: ['./creations.component.css'],
+    standalone: false
 })
 export class CreationsComponent {
   creations: Creation[] = [

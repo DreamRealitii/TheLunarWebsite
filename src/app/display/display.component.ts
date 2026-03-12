@@ -2,9 +2,10 @@ import { Component, Input, OnInit, SecurityContext } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-display',
-  templateUrl: './display.component.html',
-  styleUrls: ['./display.component.css']
+    selector: 'app-display',
+    templateUrl: './display.component.html',
+    styleUrls: ['./display.component.css'],
+    standalone: false
 })
 // Displays either an image or an embed
 export class DisplayComponent implements OnInit {
