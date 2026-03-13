@@ -2,34 +2,20 @@ h1 {
   text-align: center;
   animation: fadeInDown 1s ease-out;
 }
-h3 {
-  animation: fadeInDownDelay 1.5s ease-out;
-}
 .container {
-    display: grid;
-    grid-template-columns: 50% 50%;
+  margin: auto;
+  max-width: 800px;
 }
-@media screen and (max-width: 1800px) {
-    .container {
-        grid-template-columns: 100%;
-    }
-}
-.titled_text {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  place-items: center;
-  place-content: center;
+mat-tab-group {
+  animation: fadeInDownDelay 1.5s ease-out;
 }
 span {
   text-align: center;
   max-width: 800px;
-  animation: fadeInDownDelay 2.5s ease-out;
 }
 ul {
   list-style-type: none;
   max-width: 800px;
-  animation: fadeInDownDelay 2.5s ease-out;
 }
 li + li {
   margin-top: 5px;
