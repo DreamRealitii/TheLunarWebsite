@@ -4,3 +4,12 @@
   row-gap: 50px;
   animation: fadeInDown 1s ease-out;
 }
+
+#discordName {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#discordName:hover {
+  color: #aa88ff;
+}

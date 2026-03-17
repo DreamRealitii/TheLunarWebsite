@@ -28,7 +28,7 @@ export class HobbiesComponent {
     },
     {
       title: 'Read',
-      description: 'As a kid, I read some of the classic series, like the Chronicles of Narnia, the Time Quintet, and Calvin & Hobbes. Nowadays, I have found comics that I enjoy much more than the action/fantasy stuff I grew up with. My favorite authors for traditional series are Yuama and Xian Jun, and Morishima Akiko is very underrated. I have a Discord server where I share grades for everything I\'ve read, but it\'s private for now.',
+      description: 'As a kid, I read some of the classic series, like the Chronicles of Narnia, the Time Quintet, and Calvin & Hobbes. Nowadays, I have found comics that I enjoy much more than the action/fantasy stuff I grew up with. My favorite authors for traditional series are Xian Jun and Yuama, and I think Morishima Akiko is super underrated too. I have a Discord server where I share grades for everything I\'ve read, but it\'s private for now.',
       imageSrc: './assets/Reading.png'
     },
     {

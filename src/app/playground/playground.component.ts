@@ -9,8 +9,9 @@ import { PlaygroundService } from '../playground.service';
     imports: [FormsModule]
 })
 export class PlaygroundComponent implements AfterViewInit {
-  name: string = "Pikachu";
-  moves: number = 0;
+  discordUsername: string = "@thelunarcarver";
+  pokemonName: string = "Pikachu";
+  pokemonMoves: number = 0;
   
   constructor(private playgroundService: PlaygroundService) {
     this.setMoves = this.setMoves.bind(this);
@@ -20,15 +21,19 @@ export class PlaygroundComponent implements AfterViewInit {
     this.playgroundService.googleInit();
   }
 
+  handleDiscordClick(): void {
+    navigator.clipboard.writeText(this.discordUsername);
+  }
+
   handleReset(): void {
     this.playgroundService.handleReset();
   }
 
   getMoves(): void {
-    this.playgroundService.getMoves(this.name, this.setMoves);
+    this.playgroundService.getMoves(this.pokemonName, this.setMoves);
   }
 
   setMoves(num: number): void {
-    this.moves = num;
+    this.pokemonMoves = num;
   }
 }

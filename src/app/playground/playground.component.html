@@ -1,11 +1,16 @@
 <div class="centered">
   <div class="container">
     <div>
+      <h1>Copy Via JavaScript Test</h1>
+      <p>Click <span id="discordName" (click)="handleDiscordClick()">@thelunarcarver</span> to copy my Discord username to your clipboard.</p>
+      <p>If you suddenly message me and I can't figure out who you are, I'll probably ignore you.</p>
+    </div>
+    <div>
       <h1>REST API Test</h1>
-      <p>Enter the name of a Pokemon and I'll tell you how many moves it has according to <a href="https://pokeapi.co/">https://pokeapi.co/</a>. If you get -1 after a second, that Pokemon does not exist.</p>
-      <input type="text" [(ngModel)]="name"/>
+      <p>Enter the name of a Pokemon and I'll tell you how many moves it has according to <a href="https://pokeapi.co/" target="_blank">https://pokeapi.co/</a>. If you get -1 after a second, that Pokemon does not exist.</p>
+      <input type="text" [(ngModel)]="pokemonName"/>
       <button (click)="getMoves()">Submit</button>
-      <span> | Number of moves: {{moves}}</span>
+      <span> | Number of moves: {{pokemonMoves}}</span>
     </div>
     <div>
       <h1>Authentication Test</h1>
