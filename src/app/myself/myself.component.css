@@ -9,13 +9,14 @@ h1 {
 mat-tab-group {
   animation: fadeInDownDelay 1.5s ease-out;
 }
+mat-tab {
+  padding: 1em;
+}
 span {
-  text-align: center;
-  max-width: 800px;
+  text-align: justify;
 }
 ul {
   list-style-type: none;
-  max-width: 800px;
 }
 li + li {
   margin-top: 5px;
