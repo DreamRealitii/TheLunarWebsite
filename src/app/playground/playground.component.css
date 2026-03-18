@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  width: 80%;
   flex-direction: column;
   row-gap: 50px;
   animation: fadeInDown 1s ease-out;

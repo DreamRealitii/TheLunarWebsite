@@ -24,7 +24,7 @@ export class CreationsComponent {
     },
     {
       title: 'This Website',
-      description: 'A simple website I made in Angular to share myself, along with proving I can also do front-end development and CI/CD.',
+      description: 'A simple website I made in Angular to share myself, along with proving I can do front-end development too.',
       link: 'https://github.com/DreamRealitii/TheLunarCarver-Website',
       imageSrc: './assets/Website.png'
     },

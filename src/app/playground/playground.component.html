@@ -7,7 +7,7 @@
     </div>
     <div>
       <h1>REST API Test</h1>
-      <p>Enter the name of a Pokemon and I'll tell you how many moves it has according to <a href="https://pokeapi.co/" target="_blank">https://pokeapi.co/</a>. If you get -1 after a second, that Pokemon does not exist.</p>
+      <p>Enter the name of a Pokemon and I'll tell you how many moves it has according to <a href="https://pokeapi.co/" target="_blank">https://pokeapi.co/</a>. If you get -1 after a second, that Pokemon either does not exist, or is a "species" with multiple variants you need to choose from.</p>
       <input type="text" [(ngModel)]="pokemonName"/>
       <button (click)="getMoves()">Submit</button>
       <span> | Number of moves: {{pokemonMoves}}</span>

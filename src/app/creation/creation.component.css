@@ -39,7 +39,13 @@ h1 {
 p {
   animation: fadeInDelayUp 2s ease-out;
   grid-column: 1;
-  text-align: center;
+  text-align: justify;
+}
+
+@media screen and (max-width: 900px) {
+  p {
+    text-align: center;
+  }
 }
 
 a {

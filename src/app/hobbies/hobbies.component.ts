@@ -12,7 +12,7 @@ export class HobbiesComponent {
   hobbies: Creation[] = [
     {
       title: 'Play Beat Saber',
-      description: 'This game is my main method for staying fit. I am somewhere around the top 300 players in the world. Most of my best scores are on slow levels with extreme note angles.',
+      description: 'This game is my main method for staying fit. I am somewhere around the top 250 players in the world. Most of my best scores are on slow levels with extreme note angles.',
       link: 'https://beatleader.com/u/76561198126887823/',
       embedSrc: 'https://www.youtube.com/embed/CdOt-YLdObU?si=uUYQYAESuYh_QDw1'
     },
@@ -23,12 +23,12 @@ export class HobbiesComponent {
     },
     {
       title: 'Watch YouTube',
-      description: 'I am eternally thankful that Markiplier is the creator I grew up on. Nowadays, I would say my favorite channels are Teo for gaming content, SnapCube for improv comedy, and Something Witty Entertainment for scripted comedy. I also watch a variety of progressive political pundits.',
+      description: 'I am eternally grateful that Markiplier is the creator I grew up on. Nowadays, I would say my favorite channels are Teo for gaming content, SnapCube for improv comedy, and Something Witty Entertainment for scripted comedy. I also watch a variety of progressive political pundits.',
       imageSrc: './assets/YT_Channels.png'
     },
     {
       title: 'Read',
-      description: 'As a kid, I read some of the classic series, like the Chronicles of Narnia, the Time Quintet, and Calvin & Hobbes. Nowadays, I have found comics that I enjoy much more than the action/fantasy stuff I grew up with. My favorite authors for traditional series are Xian Jun and Yuama, and I think Morishima Akiko is super underrated too. I have a Discord server where I share grades for everything I\'ve read, but it\'s private for now.',
+      description: 'As a kid, I read some of the classic series, like the Chronicles of Narnia, the Time Quintet, and Calvin & Hobbes. Nowadays, I have found comics that I enjoy much more than the action/fantasy stuff I grew up with. My favorite authors for traditional series are Xian Jun and Yuama, and I think Morishima Akiko is super underrated too. I have a Discord server where I share grades for everything I\'ve read, but it\'s private for now. If you recognize the bottom left picture, DM me and I might invite you.',
       imageSrc: './assets/Reading.png'
     },
     {
